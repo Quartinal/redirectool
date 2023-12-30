@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    word-break: break-word;
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 50px 5%;
+    font-family: Arial, serif;
+    text-align: center;
+  }
+  h1,
+  h2 {
+    font-family: Verdana, serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 15vw;
+  }
+  h2 {
+    font-size: 60px;
+    color: #ff9393;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #ffffff;
+  }
+  fieldset {
+    border: 5px solid #ff9393;
+    padding: 20px 30px 30px;
+    margin-top: 40px;
+  }
+  legend {
+    font-size: 25px;
+    padding: 0px 30px;
+    font-weight: bold;
+  }
+  input {
+    display: block;
+    width: 100%;
+    border: 5px solid #93adff;
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: inherit;
+    color: inherit;
+    border-radius: 10px;
+    transition: border-color 250ms;
+  }
+  input:focus {
+    border-color: #93ffa9;
+    outline: none;
+  }
+  img {
+    min-width: 50%;
+    max-width: 100%;
+  }
+  a.b {
+    font-family: Verdana, serif;
+    background-color: #93adff;
+    color: #222222;
+    font-size: 30px;
+    padding: 20px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 250ms;
+  }
+  a.b:hover {
+    background-color: #93ffa9;
+  }
+  p {
+    font-size: 25px;
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+    text-indent: 1em;
+  }
+  div {
+    font-family: monospace;
+    padding-top: 40px;
+  }
+  div .epic {
+    color: #93ffa9;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+  }
+  div .epic:hover {
+    text-decoration: underline;
+  }
+  div *:not(.epic) {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  div *:not(.epic):hover {
+    background-color: #ffffff;
+    color: #222222 !important;
+  }
+  a[href*="play.google.com"] {
+    color: #93adff;
+  }
+  @media (max-width: 1250px) {
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      width: 100%;
+    }
+  }
